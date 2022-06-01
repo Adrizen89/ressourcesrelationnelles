@@ -2,7 +2,7 @@ name: ci
 on:
   push:
     branches:
-      - develop"
+      - develop
 
 jobs:
   flutter_test:
