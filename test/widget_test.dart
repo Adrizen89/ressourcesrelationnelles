@@ -31,4 +31,14 @@ test('Empty Email Test', () {
     var result = FieldValidator.validatePassword('ajay12345');
     expect(result, '');
   });
+
+  test('Empty Name Test', () {
+    var result = FieldValidator.validateName('');
+    expect(result, 'Entrez votre nom');
+  });
+
+  test('Empty Firstname Test', () {
+    var result = FieldValidator.validateFirstname('');
+    expect(result, 'Entrez votre prénom');
+  });
 }
