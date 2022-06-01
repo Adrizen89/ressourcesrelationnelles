@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "946630734809",
+    "project_id": "ressourcesrelationnelles-9fe81",
+    "storage_bucket": "ressourcesrelationnelles-9fe81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946630734809:android:885d58234c020f7c56dfc8",
+        "android_client_info": {
+          "package_name": "com.cesi.ressourcesrelationnelles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946630734809-tn8pr4cgpdki6smpvrt2iv6rca1q1m80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBy_aOb-EwHyvyN8L1DuCOW4xVPVluUe0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946630734809-tn8pr4cgpdki6smpvrt2iv6rca1q1m80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

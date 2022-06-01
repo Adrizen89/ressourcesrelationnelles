@@ -1,5 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:ressourcesrelationnelles/Pages/Auth/validator.dart';
+import 'package:ressourcesrelationnelles/main.dart';
 
 
 void main() {
@@ -41,4 +42,21 @@ test('Empty Email Test', () {
     var result = FieldValidator.validateFirstname('');
     expect(result, 'Entrez votre prénom');
   });
+
+  //Test Intégration
+  testWidgets('Test Toggle', (WidgetTester tester) async {
+  
+   await tester.pumpWidget(MyApp());
+
+   expect(find.text('S\'inscrire'), findsOneWidget);
+   expect(find.text('Se connecter'), findsNothing);
+
+  //Tap the '+' icon and trigger a frame.
+   await tester.pump();
+
+  //Verify that our counter has incremented.
+   expect(find.text('0'), findsNothing);
+   expect(find.text('1'), findsOneWidget);
+});
 }
+

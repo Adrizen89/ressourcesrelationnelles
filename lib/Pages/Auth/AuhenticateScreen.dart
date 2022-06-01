@@ -220,6 +220,7 @@ class _AuthenticateScreenState extends State<AuthenticateScreen> {
                   !showSignIn
                       ? TextFormField(
                           controller: bioController,
+                          validator: FieldValidator.validateBio,
                           maxLines: 1,
                           inputFormatters: [
                             LengthLimitingTextInputFormatter(100)

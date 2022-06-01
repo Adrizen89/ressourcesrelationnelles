@@ -29,4 +29,10 @@ class FieldValidator {
     if(value.isEmpty) return 'Entrez votre prénom';
     return '';
   }
+  static String validateBio(value) {
+    if(value.length < 100) {
+      return 'Biographie trop longue !';
+    }
+    return '';
+  }
 }
